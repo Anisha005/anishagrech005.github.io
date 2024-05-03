@@ -1,0 +1,208 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-bottom: 2px solid #d6d6d6; 
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 40px;
+    color: #241e22;
+    text-decoration: none;
+    letter-spacing: 2px; 
+}
+
+ul li a:hover {
+    color: #966188;
+}
+
+.logo {
+    flex: 1; 
+    text-align: center; 
+}
+
+.logo img {
+    height: 30px; 
+    width: auto; 
+}
+
+.profile {
+    flex: 0; 
+}
+
+.profile img {
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+}
+
+.header {
+    background-image: url(Images/Leaf\ Different\ Backgrounds-01.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    font-size: 400%;
+    padding-top: 50px; 
+}
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+}
+
+.separator {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid black;
+}
+
+.content-section {
+    padding: 20px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.content-section h2 {
+    margin-bottom: 20px; 
+}
+
+.icons-section {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 30px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.icon p {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #1b1212;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    left: 0; 
+    right: 0; 
+    background-color: transparent; 
+    border-top: 1px solid #ccc; 
+}
+
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-left ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.footer-left ul li:last-child {
+    margin-right: 0; 
+}
+
+.footer-left ul li a {
+    color: #030303; 
+    text-decoration: none; 
+}
+
+.footer-left ul li a:hover {
+    color: #44484b; 
+}
+
+.social-media img {
+    width: 40px; 
+    height: auto;
+    margin-left: 10px;
+}
