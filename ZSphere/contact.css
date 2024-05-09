@@ -6,7 +6,7 @@ ul {
     display: flex; 
     justify-content: space-between; 
     align-items: center;
-    border-bottom: 2px solid #d6d6d6; 
+
 }
 
 ul li {
@@ -16,13 +16,13 @@ ul li {
 ul li a {
     display: block;
     padding: 10px 40px;
-    color: #241e22;
+    color: #333333;
     text-decoration: none;
     letter-spacing: 2px;
 }
 
 ul li a:hover {
-    color: #966188;
+    color: #6A7199;
 }
 
 .logo {
@@ -46,52 +46,109 @@ ul li a:hover {
 }
 
 
+.header {
+    background-image: url(Images/Leaf\ Different\ Backgrounds-01.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    padding-top: 250px;
+    color: #333333;
+}
+
+.title{
+    font-weight: lighter;
+    text-align: center;
+    align-content: center;
+    font-size: 65px;
+    margin-top: 0.1%;
+}
 
 
+.separator {
+    border: none;
+    border-top: 1px solid #cfcccc;
+}
+
+.input-section {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    border: 1px solid #333333;
+    align-content: center;
+}
+
+.info-section1{
+    position: absolute;
+    border: #af904c;
+    border-style: double;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    background-color:#ffffff;
+    color: #333333;
+}
+
+.contact-info {
+    background-color: #ffffff; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    
+}
 
 
+.input-group label {
+    flex: 1; 
+    margin-left: -80px;
+    font-weight: lighter; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
 
 
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
 
 
+.submit-button{
+    display: block;
+    margin: 20px auto; 
+    padding: 5px 20px;
+    background-color: transparent; 
+    color: #333333; 
+    border: 2px solid #333333; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.submit-button:hover {
+    background-color: #6A7199; 
+    color: #D0D6F4; 
+}
 
 
 
 footer {
-    color: #1b1212; 
     padding: 10px; 
     display: flex;
     justify-content: space-between; 
@@ -102,6 +159,7 @@ footer {
     background-color: transparent; 
     border-top: 1px solid #ccc; 
 }
+
 
 
 .footer-left ul {
@@ -120,12 +178,12 @@ footer {
 }
 
 .footer-left ul li a {
-    color: #030303;
+    color: #333333;
     text-decoration: none; 
 }
 
 .footer-left ul li a:hover {
-    color: #44484b; 
+    color: #6A7199; 
 }
 
 .social-media img {

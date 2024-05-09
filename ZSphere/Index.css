@@ -7,7 +7,6 @@ ul {
     display: flex; 
     justify-content: space-between; 
     align-items: center;
-    border-bottom: 2px solid #d6d6d6; 
 }
 
 ul li {
@@ -17,13 +16,13 @@ ul li {
 ul li a {
     display: block;
     padding: 10px 40px;
-    color: #241e22;
+    color: #333333;
     text-decoration: none;
     letter-spacing: 2px;
 }
 
 ul li a:hover {
-    color: #966188;
+    color: #6A7199;
 }
 
 .logo {
@@ -63,24 +62,221 @@ header {
 header h1 {
     margin: 0;
     font-size: 45px;
-    color: #121010;
+    color: #333333;
     font-weight: lighter;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent;
+    scrollbar-width: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+}
+
+
+ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    position: relative;
+    filter: drop-shadow(0 0 10px #0003);
+    perspective: 100px;
+    max-width: 650px;
+    height: 350px;
+    margin: 15px auto 100px;
+}
+
+
+
+.carousel__viewport {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.carousel__slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel__slide:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-40%,70px);
+    color: #fff;
+    font-size: 2em;
+}
+
+.carousel__snapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: center;
+}
+
+.carousel__navigation {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+    display: inline-block;
+}
+
+.carousel__navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #aeabab;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.carousel::before,
+.carousel::after {
+    position: absolute;
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .see-more {
     display: block;
     margin: 20px auto; 
     padding: 5px 20px;
     background-color: transparent; 
-    color: black; 
-    border: 2px solid black; 
+    color: #333333; 
+    border: 2px solid #333333; 
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; 
 }
 
 .see-more:hover {
-    background-color: black; 
-    color: white; 
+    background-color: #6A7199; 
+    color: #D0D6F4;
 }
 
 .slide {
@@ -109,6 +305,7 @@ header h1 {
     margin-bottom: 30px; 
     margin-top: 160px;
     font-weight: lighter;
+    color: #333333;
 }
 
 .paragraph {
@@ -116,10 +313,15 @@ header h1 {
     line-height: 1.5; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    color: #333333;
 }
 
+
+
+
+
+
 footer {
-    color: #1b1212; 
     padding: 10px; 
     display: flex;
     justify-content: space-between; 
@@ -148,12 +350,12 @@ footer {
 }
 
 .footer-left ul li a {
-    color: #030303;
+    color: #333333;
     text-decoration: none; 
 }
 
 .footer-left ul li a:hover {
-    color: #44484b; 
+    color: #6A7199; 
 }
 
 .social-media img {

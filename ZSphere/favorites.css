@@ -4,7 +4,8 @@ ul {
     padding: 0;
     display: flex; 
     justify-content: space-between; 
-    align-items: center; 
+    align-items: center;
+
 }
 
 ul li {
@@ -16,7 +17,7 @@ ul li a {
     padding: 10px 40px;
     color: #333333;
     text-decoration: none;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
 
 ul li a:hover {
@@ -44,9 +45,8 @@ ul li a:hover {
 }
 
 
-
 .header {
-    background-image: url(Images/Leaf\ Different\ Backgrounds-01.png);
+    background-image: url(Images/Leaf\ Different\ Backgrounds-02.png);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -59,132 +59,44 @@ ul li a:hover {
     color: #333333;
 }
 
-.header-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: #333333;
-    transform: translate(-50% -50);
+.header-right select {
+    padding: 10px;
+    font-size: 16px;
+    color: #966188;
+    border: 1px;
+    border-color: azure;
 }
 
-.separator {
-    border: none;
-    border-top: 1px solid #cfcccc;
-}
-
-.content-section {
+.quotes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 20px;
-    max-width: 800px; 
-    margin: 0 auto; 
-    text-align: center;
-    width: 400px;
-    padding-bottom: 70px;
-    color: #333333;
 }
 
-.content-section h2 {
-    margin-bottom: 40px; 
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    color: #333333;
-}
-
-.icons-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    color: #333333;
-}
-
-.icon {
+.quote {
     text-align: center;
 }
 
-.icon img {
-    width: 80px;
-    height: 80px;
+.quote img {
+    max-width: 100%;
+    height: auto;
 }
 
-.icon p {
-    margin-top: 30px;
-    width: 125px;
-    padding-inline: 60px;
+.caption {
+    display: block;
+    margin-top: 10px;
+    color: #333333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer {
-    padding: 10px;
+    padding: 10px; 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
-    position: sticky;
-    left: 0; 
+    position: sticky; 
+    left: 0;
     right: 0; 
     background-color: transparent; 
     border-top: 1px solid #ccc; 
@@ -207,7 +119,7 @@ footer {
 }
 
 .footer-left ul li a {
-    color: #333333; 
+    color: #333333;
     text-decoration: none; 
 }
 
@@ -217,6 +129,6 @@ footer {
 
 .social-media img {
     width: 40px; 
-    height: auto;
+    height: auto; 
     margin-left: 10px;
 }
