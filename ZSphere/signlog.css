@@ -45,12 +45,30 @@ ul li a:hover {
 }
 
 
-
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+}
 
 
 
 .container {
     max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #0000001a;
+    padding-bottom: 80px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 90px;
+}
+
+
+
+
+.logincon {
+    max-width: 580px;
     margin: 100px auto;
     padding: 20px;
     background-color: #fff;
@@ -71,6 +89,14 @@ h2 {
 }
 
 
+
+header{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: lighter;
+    font-size: 40px;
+    padding-bottom: -90px;
+}
 
 .leaf-left {
     position: absolute;
@@ -122,6 +148,18 @@ input[type="password"] {
 }
 
 button {
+    padding: 8px;
+    background-color: #ffffff; 
+    color: #333333; 
+    border: 1px solid #333333; 
+    cursor: pointer;
+    width: 80px;
+    align-self: center;
+}
+
+
+
+.btn.btn-primary{
     padding: 8px;
     background-color: #ffffff; 
     color: #333333; 

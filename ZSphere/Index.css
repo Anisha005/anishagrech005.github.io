@@ -71,41 +71,9 @@ header h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {
     box-sizing: border-box;
     scrollbar-color: transparent transparent;
-    scrollbar-width: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -217,46 +185,6 @@ ol, li {
     font-size: 0;
     outline: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

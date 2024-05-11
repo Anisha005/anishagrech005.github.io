@@ -194,7 +194,6 @@
 }
 
 body {
-  margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -349,8 +348,7 @@ sup {
 }
 
 a {
-  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
@@ -3003,19 +3001,16 @@ textarea.form-control-lg {
   -moz-user-select: none;
   user-select: none;
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-  border-radius: var(--bs-btn-border-radius);
-  background-color: var(--bs-btn-bg);
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
+  background-color: var(--bs-btn-bg);}
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
   }
 }
 .btn:hover {
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
-  border-color: var(--bs-btn-hover-border-color);
+  color: #D0D6F4;
+  background-color: #6A7199;
+  border-color: #6A7199;
 }
 .btn-check + .btn:hover {
   color: var(--bs-btn-color);

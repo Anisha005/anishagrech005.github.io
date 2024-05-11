@@ -44,7 +44,7 @@ ul li a:hover {
 }
 
 body {
-    background-image: url('Images/Whole\ Background.png');
+    background-image: url('Images/WholeBackground.png');
     background-size: cover;
     background-position: center;
     padding-top: 0px; 
@@ -107,7 +107,7 @@ body {
 
 
 .image-button {
-    background-image: url(Images/star\ icon-02.png); 
+    background-image: url(Images/staricon-02.png); 
     background-size: cover;
     border: none;
     cursor: pointer;
@@ -117,7 +117,7 @@ body {
 }
 
 .image-button:active {
-    background-image: url(Images/star\ icon-03.png); 
+    background-image: url(Images/staricon-03.png); 
 }
 
 
